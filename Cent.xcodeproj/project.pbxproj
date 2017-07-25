@@ -7,7 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		662307AC1F276D3C0009E32D /* Dollar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662307AB1F276D3C0009E32D /* Dollar.framework */; };
+		662307ED1F277A670009E32D /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* Array.swift */; };
+		662307EE1F277A670009E32D /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Date.swift */; };
+		662307EF1F277A670009E32D /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Dictionary.swift */; };
+		662307F01F277A670009E32D /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Int.swift */; };
+		662307F11F277A670009E32D /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Range.swift */; };
+		662307F21F277A670009E32D /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Regex.swift */; };
+		662307F31F277A670009E32D /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* String.swift */; };
+		662307FD1F277A7C0009E32D /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* Array.swift */; };
+		662307FE1F277A7C0009E32D /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Date.swift */; };
+		662307FF1F277A7C0009E32D /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Dictionary.swift */; };
+		662308001F277A7C0009E32D /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Int.swift */; };
+		662308011F277A7C0009E32D /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Range.swift */; };
+		662308021F277A7C0009E32D /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Regex.swift */; };
+		662308031F277A7C0009E32D /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* String.swift */; };
+		6623080D1F277A860009E32D /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* Array.swift */; };
+		6623080E1F277A860009E32D /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Date.swift */; };
+		6623080F1F277A860009E32D /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Dictionary.swift */; };
+		662308101F277A860009E32D /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Int.swift */; };
+		662308111F277A860009E32D /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Range.swift */; };
+		662308121F277A860009E32D /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Regex.swift */; };
+		662308131F277A860009E32D /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* String.swift */; };
+		6623081C1F277B2A0009E32D /* Dollar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6623081B1F277B290009E32D /* Dollar.framework */; };
+		6623081E1F277B2F0009E32D /* Dollar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6623081D1F277B2F0009E32D /* Dollar.framework */; };
+		662308201F277B360009E32D /* Dollar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6623081F1F277B360009E32D /* Dollar.framework */; };
+		662308221F277B3A0009E32D /* Dollar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662308211F277B3A0009E32D /* Dollar.framework */; };
 		OBJ_41 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* Array.swift */; };
 		OBJ_42 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Date.swift */; };
 		OBJ_43 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Dictionary.swift */; };
@@ -30,8 +54,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		662307AB1F276D3C0009E32D /* Dollar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Dollar.framework; path = Carthage/Build/iOS/Dollar.framework; sourceTree = "<group>"; };
-		662307AE1F276D5E0009E32D /* Dollar.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Dollar.framework.dSYM; sourceTree = "<group>"; };
+		662307F91F277A670009E32D /* Cent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		662308091F277A7C0009E32D /* Cent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		662308191F277A860009E32D /* Cent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6623081B1F277B290009E32D /* Dollar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Dollar.framework; path = Carthage/Build/iOS/Dollar.framework; sourceTree = "<group>"; };
+		6623081D1F277B2F0009E32D /* Dollar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Dollar.framework; path = Carthage/Build/Mac/Dollar.framework; sourceTree = "<group>"; };
+		6623081F1F277B360009E32D /* Dollar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Dollar.framework; path = Carthage/Build/watchOS/Dollar.framework; sourceTree = "<group>"; };
+		662308211F277B3A0009E32D /* Dollar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Dollar.framework; path = Carthage/Build/tvOS/Dollar.framework; sourceTree = "<group>"; };
 		OBJ_10 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 		OBJ_11 /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
 		OBJ_12 /* Range.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
@@ -46,11 +75,35 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		662307F41F277A670009E32D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				6623081E1F277B2F0009E32D /* Dollar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662308041F277A7C0009E32D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				662308201F277B360009E32D /* Dollar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662308141F277A860009E32D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				662308221F277B3A0009E32D /* Dollar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		OBJ_48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				662307AC1F276D3C0009E32D /* Dollar.framework in Frameworks */,
+				6623081C1F277B2A0009E32D /* Dollar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,8 +121,10 @@
 		662307AA1F276D3C0009E32D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				662307AE1F276D5E0009E32D /* Dollar.framework.dSYM */,
-				662307AB1F276D3C0009E32D /* Dollar.framework */,
+				662308211F277B3A0009E32D /* Dollar.framework */,
+				6623081F1F277B360009E32D /* Dollar.framework */,
+				6623081D1F277B2F0009E32D /* Dollar.framework */,
+				6623081B1F277B290009E32D /* Dollar.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -96,6 +151,9 @@
 			children = (
 				OBJ_25 /* Cent.framework */,
 				OBJ_26 /* CentTests.xctest */,
+				662307F91F277A670009E32D /* Cent.framework */,
+				662308091F277A7C0009E32D /* Cent.framework */,
+				662308191F277A860009E32D /* Cent.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -128,9 +186,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		OBJ_36 /* Cent */ = {
+		662307EB1F277A670009E32D /* Cent-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_37 /* Build configuration list for PBXNativeTarget "Cent" */;
+			buildConfigurationList = 662307F61F277A670009E32D /* Build configuration list for PBXNativeTarget "Cent-macOS" */;
+			buildPhases = (
+				662307EC1F277A670009E32D /* Sources */,
+				662307F41F277A670009E32D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cent-macOS";
+			productName = Cent;
+			productReference = 662307F91F277A670009E32D /* Cent.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		662307FB1F277A7C0009E32D /* Cent-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662308061F277A7C0009E32D /* Build configuration list for PBXNativeTarget "Cent-watchOS" */;
+			buildPhases = (
+				662307FC1F277A7C0009E32D /* Sources */,
+				662308041F277A7C0009E32D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cent-watchOS";
+			productName = Cent;
+			productReference = 662308091F277A7C0009E32D /* Cent.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6623080B1F277A860009E32D /* Cent-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662308161F277A860009E32D /* Build configuration list for PBXNativeTarget "Cent-tvOS" */;
+			buildPhases = (
+				6623080C1F277A860009E32D /* Sources */,
+				662308141F277A860009E32D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cent-tvOS";
+			productName = Cent;
+			productReference = 662308191F277A860009E32D /* Cent.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_36 /* Cent-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_37 /* Build configuration list for PBXNativeTarget "Cent-iOS" */;
 			buildPhases = (
 				OBJ_40 /* Sources */,
 				OBJ_48 /* Frameworks */,
@@ -139,7 +245,7 @@
 			);
 			dependencies = (
 			);
-			name = Cent;
+			name = "Cent-iOS";
 			productName = Cent;
 			productReference = OBJ_25 /* Cent.framework */;
 			productType = "com.apple.product-type.framework";
@@ -181,13 +287,58 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				OBJ_36 /* Cent */,
+				OBJ_36 /* Cent-iOS */,
+				662307EB1F277A670009E32D /* Cent-macOS */,
+				662307FB1F277A7C0009E32D /* Cent-watchOS */,
+				6623080B1F277A860009E32D /* Cent-tvOS */,
 				OBJ_51 /* CentTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		662307EC1F277A670009E32D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				662307ED1F277A670009E32D /* Array.swift in Sources */,
+				662307EE1F277A670009E32D /* Date.swift in Sources */,
+				662307EF1F277A670009E32D /* Dictionary.swift in Sources */,
+				662307F01F277A670009E32D /* Int.swift in Sources */,
+				662307F11F277A670009E32D /* Range.swift in Sources */,
+				662307F21F277A670009E32D /* Regex.swift in Sources */,
+				662307F31F277A670009E32D /* String.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662307FC1F277A7C0009E32D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				662307FD1F277A7C0009E32D /* Array.swift in Sources */,
+				662307FE1F277A7C0009E32D /* Date.swift in Sources */,
+				662307FF1F277A7C0009E32D /* Dictionary.swift in Sources */,
+				662308001F277A7C0009E32D /* Int.swift in Sources */,
+				662308011F277A7C0009E32D /* Range.swift in Sources */,
+				662308021F277A7C0009E32D /* Regex.swift in Sources */,
+				662308031F277A7C0009E32D /* String.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6623080C1F277A860009E32D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				6623080D1F277A860009E32D /* Array.swift in Sources */,
+				6623080E1F277A860009E32D /* Date.swift in Sources */,
+				6623080F1F277A860009E32D /* Dictionary.swift in Sources */,
+				662308101F277A860009E32D /* Int.swift in Sources */,
+				662308111F277A860009E32D /* Range.swift in Sources */,
+				662308121F277A860009E32D /* Regex.swift in Sources */,
+				662308131F277A860009E32D /* String.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		OBJ_40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
@@ -215,12 +366,150 @@
 /* Begin PBXTargetDependency section */
 		OBJ_61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_36 /* Cent */;
+			target = OBJ_36 /* Cent-iOS */;
 			targetProxy = 3E6358F11F0FC5AA003E726A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		662307F71F277A670009E32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Cent.xcodeproj/Cent_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Cent;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Cent;
+			};
+			name = Debug;
+		};
+		662307F81F277A670009E32D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Cent.xcodeproj/Cent_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Cent;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Cent;
+			};
+			name = Release;
+		};
+		662308071F277A7C0009E32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Cent.xcodeproj/Cent_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Cent;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Cent;
+			};
+			name = Debug;
+		};
+		662308081F277A7C0009E32D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Cent.xcodeproj/Cent_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Cent;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Cent;
+			};
+			name = Release;
+		};
+		662308171F277A860009E32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Cent.xcodeproj/Cent_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Cent;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Cent;
+			};
+			name = Debug;
+		};
+		662308181F277A860009E32D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Cent.xcodeproj/Cent_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Cent;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = Cent;
+			};
+			name = Release;
+		};
 		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -346,6 +635,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		662307F61F277A670009E32D /* Build configuration list for PBXNativeTarget "Cent-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662307F71F277A670009E32D /* Debug */,
+				662307F81F277A670009E32D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		662308061F277A7C0009E32D /* Build configuration list for PBXNativeTarget "Cent-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662308071F277A7C0009E32D /* Debug */,
+				662308081F277A7C0009E32D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		662308161F277A860009E32D /* Build configuration list for PBXNativeTarget "Cent-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662308171F277A860009E32D /* Debug */,
+				662308181F277A860009E32D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		OBJ_2 /* Build configuration list for PBXProject "Cent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -355,7 +671,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_37 /* Build configuration list for PBXNativeTarget "Cent" */ = {
+		OBJ_37 /* Build configuration list for PBXNativeTarget "Cent-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_38 /* Debug */,
