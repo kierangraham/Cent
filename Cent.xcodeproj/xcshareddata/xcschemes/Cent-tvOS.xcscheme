@@ -1,39 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "9999"
+   LastUpgradeVersion = "0900"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_36"
-               BuildableName = "Cent.framework"
-               BlueprintName = "Cent-iOS"
-               ReferencedContainer = "container:Cent.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "662307EB1F277A670009E32D"
-               BuildableName = "Cent.framework"
-               BlueprintName = "Cent-macOS"
-               ReferencedContainer = "container:Cent.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
@@ -48,20 +20,6 @@
                ReferencedContainer = "container:Cent.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "662307FB1F277A7C0009E32D"
-               BuildableName = "Cent.framework"
-               BlueprintName = "Cent-watchOS"
-               ReferencedContainer = "container:Cent.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -72,15 +30,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_36"
-            BuildableName = "Cent.framework"
-            BlueprintName = "Cent-iOS"
-            ReferencedContainer = "container:Cent.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -98,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_36"
+            BlueprintIdentifier = "6623080B1F277A860009E32D"
             BuildableName = "Cent.framework"
-            BlueprintName = "Cent-iOS"
+            BlueprintName = "Cent-tvOS"
             ReferencedContainer = "container:Cent.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -116,9 +65,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_36"
+            BlueprintIdentifier = "6623080B1F277A860009E32D"
             BuildableName = "Cent.framework"
-            BlueprintName = "Cent-iOS"
+            BlueprintName = "Cent-tvOS"
             ReferencedContainer = "container:Cent.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
