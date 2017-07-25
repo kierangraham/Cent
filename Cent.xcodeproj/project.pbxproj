@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		OBJ_32 /* AutoBind.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* AutoBind.swift */; };
-		OBJ_33 /* AutoCurry.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* AutoCurry.swift */; };
-		OBJ_34 /* Dollar.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Dollar.swift */; };
+		662307AC1F276D3C0009E32D /* Dollar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662307AB1F276D3C0009E32D /* Dollar.framework */; };
 		OBJ_41 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* Array.swift */; };
 		OBJ_42 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Date.swift */; };
 		OBJ_43 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Dictionary.swift */; };
@@ -17,27 +15,11 @@
 		OBJ_45 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Range.swift */; };
 		OBJ_46 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Regex.swift */; };
 		OBJ_47 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* String.swift */; };
-		OBJ_49 /* Dollar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Dollar.framework */; };
 		OBJ_56 /* CentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* CentTests.swift */; };
-		OBJ_58 /* Dollar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Dollar.framework */; };
 		OBJ_59 /* Cent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Cent.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3E6358EF1F0FC5AA003E726A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = OBJ_27;
-			remoteInfo = Dollar;
-		};
-		3E6358F01F0FC5AA003E726A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = OBJ_27;
-			remoteInfo = Dollar;
-		};
 		3E6358F11F0FC5AA003E726A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -48,36 +30,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		662307AB1F276D3C0009E32D /* Dollar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Dollar.framework; path = Carthage/Build/iOS/Dollar.framework; sourceTree = "<group>"; };
+		662307AE1F276D5E0009E32D /* Dollar.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Dollar.framework.dSYM; sourceTree = "<group>"; };
 		OBJ_10 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 		OBJ_11 /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
 		OBJ_12 /* Range.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
 		OBJ_13 /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		OBJ_14 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		OBJ_17 /* CentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentTests.swift; sourceTree = "<group>"; };
-		OBJ_20 /* AutoBind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoBind.swift; sourceTree = "<group>"; };
-		OBJ_21 /* AutoCurry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCurry.swift; sourceTree = "<group>"; };
-		OBJ_22 /* Dollar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dollar.swift; sourceTree = "<group>"; };
-		OBJ_24 /* Dollar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Dollar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_25 /* Cent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_26 /* CentTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = CentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_26 /* CentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = CentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_8 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		OBJ_9 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_35 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		OBJ_48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_49 /* Dollar.framework in Frameworks */,
+				662307AC1F276D3C0009E32D /* Dollar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_58 /* Dollar.framework in Frameworks */,
 				OBJ_59 /* Cent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		662307AA1F276D3C0009E32D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				662307AE1F276D5E0009E32D /* Dollar.framework.dSYM */,
+				662307AB1F276D3C0009E32D /* Dollar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		OBJ_15 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,45 +91,24 @@
 			path = Tests/CentTests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_18 /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_19 /* Dollar 6.2.1 */,
-			);
-			name = Dependencies;
-			sourceTree = "<group>";
-		};
-		OBJ_19 /* Dollar 6.2.1 */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_20 /* AutoBind.swift */,
-				OBJ_21 /* AutoCurry.swift */,
-				OBJ_22 /* Dollar.swift */,
-			);
-			name = "Dollar 6.2.1";
-			path = ".build/checkouts/Dollar--1394126711884879759/Sources";
-			sourceTree = SOURCE_ROOT;
-		};
 		OBJ_23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_24 /* Dollar.framework */,
 				OBJ_25 /* Cent.framework */,
 				OBJ_26 /* CentTests.xctest */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_15 /* Tests */,
-				OBJ_18 /* Dependencies */,
 				OBJ_23 /* Products */,
+				662307AA1F276D3C0009E32D /* Frameworks */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -168,22 +128,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		OBJ_27 /* Dollar */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_28 /* Build configuration list for PBXNativeTarget "Dollar" */;
-			buildPhases = (
-				OBJ_31 /* Sources */,
-				OBJ_35 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Dollar;
-			productName = Dollar;
-			productReference = OBJ_24 /* Dollar.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		OBJ_36 /* Cent */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = OBJ_37 /* Build configuration list for PBXNativeTarget "Cent" */;
@@ -194,7 +138,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_50 /* PBXTargetDependency */,
 			);
 			name = Cent;
 			productName = Cent;
@@ -211,7 +154,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_60 /* PBXTargetDependency */,
 				OBJ_61 /* PBXTargetDependency */,
 			);
 			name = CentTests;
@@ -234,12 +176,11 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_23 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				OBJ_27 /* Dollar */,
 				OBJ_36 /* Cent */,
 				OBJ_51 /* CentTests */,
 			);
@@ -247,16 +188,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_31 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_32 /* AutoBind.swift in Sources */,
-				OBJ_33 /* AutoCurry.swift in Sources */,
-				OBJ_34 /* Dollar.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		OBJ_40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
@@ -282,16 +213,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_50 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = OBJ_27 /* Dollar */;
-			targetProxy = 3E6358EF1F0FC5AA003E726A /* PBXContainerItemProxy */;
-		};
-		OBJ_60 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = OBJ_27 /* Dollar */;
-			targetProxy = 3E6358F01F0FC5AA003E726A /* PBXContainerItemProxy */;
-		};
 		OBJ_61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_36 /* Cent */;
@@ -300,27 +221,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_29 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Cent.xcodeproj/Dollar_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Dollar;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				TARGET_NAME = Dollar;
-			};
-			name = Debug;
-		};
 		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -344,27 +244,6 @@
 			};
 			name = Debug;
 		};
-		OBJ_30 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Cent.xcodeproj/Dollar_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Dollar;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				TARGET_NAME = Dollar;
-			};
-			name = Release;
-		};
 		OBJ_38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -372,6 +251,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Cent.xcodeproj/Cent_Info.plist;
@@ -393,6 +273,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Cent.xcodeproj/Cent_Info.plist;
@@ -470,15 +351,6 @@
 			buildConfigurations = (
 				OBJ_3 /* Debug */,
 				OBJ_4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		OBJ_28 /* Build configuration list for PBXNativeTarget "Dollar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_29 /* Debug */,
-				OBJ_30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
